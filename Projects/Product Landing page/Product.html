@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <header id="header">
+            <h1 class="title">Book Title</h1>
+            <h2 class="subtitle">Subtitle</h2>
+            <nav id="nav-bar" class="nav-header"> Navigate to sections 
+                <a class="nav-link" href="#section-1">1</a>
+                <a class="nav-link" href="#section-2">2</a>
+                <a class="nav-link" href="#section-3">3</a>
+                <a class="nav-link" href="#section-4">4</a>
+            </nav>
+            <figure>
+                <img class="main-image" id="header-img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-865109088-1548970937.jpg?crop=1.00xw:0.752xh;0,0.248xh&resize=480:*" alt="Generic image of a book">
+                <figcaption class="fig-caption">Figure caption.</figcaption>
+            </figure>
+        </header>    
+        
+        <h3 class="synopsis">Synopsis: ____</h3>
+        
+        <div class="flex-box">
+            <p id="section-1">Section 1</p>
+            <p>Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.Test box 1.</p>
+            <p id="section-2">Section 2</p>
+            <p>Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.Test box 2.</p>
+            <p id="section-3">Section 3</p>
+            <p>Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.Test box 3.</p>
+            <p id="section-4">Section 4</p>
+            <p>Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.Test box 4.</p>
+        </div>
+        <div>
+            <iframe
+                class="video"
+                id="video" 
+                width="420" 
+                height="315" 
+                src="https://www.youtube.com/embed/GN-vMMpja30?list=PLeLK8lrytBLrqK2pNzrGldeiuPlGHr9zW">
+            </iframe>
+        </div>
+        <div>    
+            <p class="text" id="nav-bar">Purchase on <a target="_blank" href="https://www.amazon.ca">Amazon</a></p>
+        </div>
+        <div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" class="text">
+                <p>Request an order</p>
+                <div>
+                    <label for="email" id="email-label">Email</label>  
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
+                <div>
+                    <label for="name" name="name" id="name-label">Name:</label>
+                    <input type="text"id="name" placeholder="name" required>
+                </div>
+                <div>
+                    <p>Comments:
+                        <textarea id="comments" name="comments" placeholder="(optional)"></textarea>
+                    </p>
+                <div>
+                    <input type="submit" id="submit">Submit request</input>
+                </div>
+            </form>
+        </div>
+        </main>
+</body>
+<footer>
+</footer>
+
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
