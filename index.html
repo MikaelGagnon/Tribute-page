@@ -8,28 +8,71 @@
     <title>Personal Portfolio Page</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<!-- write what you want-->
 <body>
+    <!-- START NAV -->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+              <a href="#contact">Contact</a>
+          </li>
+        </ul>
+    </nav>
+    <!-- END NAV -->
     <main>
-        <section id="welcome-section">
+        <section id="welcome-section" class="welcome-section"
             <h1>Mikaël Gagnon</h1>
-            <h2>Personal Portfolio</h2>
+            <h2>Portfolio</h2>
         </section>
-        <section id="projects">
-            <h3>Projects</h3>
-            <div class="project-tile">
-                <h3>Tribute to Lewis Hamilton</h3>
-                <p>placeholder text</p>
+        <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">Projects</h2>
+            <div class="projects-grid">
+                <a class="project project-tile" target="_blank" href="./Projects/Tribute-page/tribute.html">
+                    <img class="project-image"src="https://assets.lewishamilton.com/media/heroes/header-paul-ripke-lewis-hamilton-us-gp-2019-6-world-championships-f1.jpg" alt="project"/>
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Tribute To Lewis hamilton
+                        <span class="code">&#47;&gt;</span>
+                    </p>              
+                </a>
+                <a class="project project-tile" target="_blank" href="./Projects/Survey form/survey.html">
+                    <img class="project-image"src="https://volunteerscience.com/media/experiment/87/survey.1.png" alt="project"/>
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Survey Form
+                        <span class="code">&#47;&gt;</span>
+                    </p>              
+                </a>
+                <a class="project project-tile" target="_blank" href="./Projects/Product Landing page/Product.html">
+                    <img class="project-image"src="https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-07-300x300.png" alt="project"/>
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Product Landing Page
+                        <span class="code">&#47;&gt;</span>
+                    </p>              
+                </a>
+                <a class="project project-tile" target="_blank" href="./Projects/Technical Documentation Page/technicaldoc.html">
+                    <img class="project-image"src="https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/5-real-life-examples-of-beautiful-technical-documentation@3x-1560x760.png" alt="project"/>
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Technical Documentation
+                        <span class="code">&#47;&gt;</span>
+                    </p>              
+                </a>
             </div>
-            <div class="project-tile">
-                <h3>Project 2</h3>
-                <p>placeholder text</p>
-            </div>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>placeholder text</p>
+            <a id="profile-link" href="https://github.com/MikaelGagnon" target="_blank">Github</a>
         </section>
     </main>
-    <aside>
-        <button><a href="./Projects/Survey form/survey.html">survey form</a></button>
-    </aside>
+    
 </body>
 <footer></footer>
 
