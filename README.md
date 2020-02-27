@@ -1,3 +1,2 @@
-# helloworld
-test
-My name is Mikael I and learning the gethub interface. 
+# Portfolio
+All projects were created with the help of FreeCodeCamp.org
